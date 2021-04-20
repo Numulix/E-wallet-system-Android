@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAFWalletProjekat</string>
+    <string name="name_edit_text" translatable="false">Unesite ime</string>
+    <string name="surname_edit_text" translatable="false">Unesite prezime</string>
+    <string name="bank_edit_text" translatable="false">Unesite ime banke</string>
+    <string name="password_edit_text" translatable="false">Unesite sifru</string>
+    <string name="login_text_view" translatable="false">Novcanik sistem za studente RAF-a</string>
+    <string name="login_button_text" translatable="false">Prijava</string>
+    <string name="toast_empty_fields">Molimo vas da sva polja popunite</string>
+    <string name="toast_short_password">Sifra mora imati minimum 5 karaktera</string>
+    <string name="toast_wrong_password">Pogresno unesena sifra</string>
+    <string name="botnav_state">Stanje</string>
+    <string name="botnav_entry">Unos</string>
+    <string name="botnav_lists">Liste</string>
+    <string name="botnav_profile">Profil</string>
+    <string name="profile_frag_user_info">Podaci o korisniku</string>
+    <string name="profile_frag_name">Ime:</string>
+    <string name="profile_frag_surname">Prezime:</string>
+    <string name="profile_frag_bank">Banka:</string>
+    <string name="profile_frag_edit">Izmeni</string>
+    <string name="profile_frag_logout">Odjavi se</string>
+    <string name="edit_profile_cancel">Otkazi</string>
+    <string name="edit_profile_save">Sacuvaj</string>
+    <string name="edit_profile_text">Izmeni informacije o korisniku</string>
+    <string name="state_top_text">Pregled ukupnog stanja racuna</string>
+    <string name="income">Prihod:</string>
+    <string name="expense">Rashod:</string>
+    <string name="difference">Razlika:</string>
+    <string name="add_income_expense_text">Unos novog prihoda ili rashoda</string>
+
+    <string-array name="spinner_items">
+        <item>Prihod</item>
+        <item>Rashod</item>
+    </string-array>
+    <string name="income_expense_name_hint">Naziv</string>
+    <string name="income_expense_amount">Kolicina</string>
+    <string name="income_expense_description">Opis</string>
+    <string name="button_add">Dodaj</string>
+    <string name="tab_item_incomes">Prihodi</string>
+    <string name="tab_item_expenses">Rashodi</string>
+    <string name="income_expense_info">Podaci o prihodu/rashodu</string>
+    <string name="income_success">Prihod je uspesno dodat</string>
+    <string name="expense_success">Rashod je uspesno dodat</string>
+    <string name="audio_empty">Molimo vas da snimite audio</string>
+</resources>

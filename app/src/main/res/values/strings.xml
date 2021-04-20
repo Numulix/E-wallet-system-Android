@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RAFWalletProjekat</string>
+    <string name="name_edit_text">Enter your name</string>
+    <string name="surname_edit_text">Enter your surname</string>
+    <string name="bank_edit_text">Enter your bank name</string>
+    <string name="password_edit_text">Enter you password</string>
+    <string name="login_text_view">Mobile wallet system for RAF faculty students</string>
+    <string name="login_button_text">Login</string>
+    <string name="toast_empty_fields">Please fill in all fields</string>
+    <string name="toast_short_password">Password must be 5 or more characters</string>
+    <string name="toast_wrong_password">Incorrect passwords</string>
+    <string name="botnav_state">State</string>
+    <string name="botnav_entry">Entry</string>
+    <string name="botnav_lists">Lists</string>
+    <string name="botnav_profile">Profile</string>
+    <string name="profile_frag_user_info">User Information</string>
+    <string name="profile_frag_name">Name:</string>
+    <string name="profile_frag_surname">Surname:</string>
+    <string name="profile_frag_bank">Bank:</string>
+    <string name="profile_frag_edit">Edit</string>
+    <string name="profile_frag_logout">Logout</string>
+    <string name="edit_profile_cancel">Cancel</string>
+    <string name="edit_profile_save">Save</string>
+    <string name="edit_profile_text">Edit user information</string>
+    <string name="state_top_text">Overview of total account balance</string>
+    <string name="income">Income:</string>
+    <string name="expense">Expense:</string>
+    <string name="difference">Difference:</string>
+    <string name="add_income_expense_text">New income or expense entry</string>
+
+    <string-array name="spinner_items">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+    <string name="income_expense_name_hint">Name</string>
+    <string name="income_expense_amount">Amount</string>
+    <string name="income_expense_description">Description</string>
+    <string name="button_add">Add</string>
+    <string name="tab_item_incomes">Incomes</string>
+    <string name="tab_item_expenses">Expenses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="income_expense_info">Income/Expense information</string>
+    <string name="income_success">Income has been added successfully</string>
+    <string name="expense_success">Expense has been added successfully</string>
+    <string name="audio_empty">Please leave an audio recording</string>
+</resources>

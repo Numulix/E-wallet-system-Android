@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rafwalletprojekat">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="rs.raf.projekat1.jovan_babic_rn3018.app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RAFWalletProjekat">
+        <activity android:name="rs.raf.projekat1.jovan_babic_rn3018.activities.IncomeExpenseInfoActivity"></activity>
+        <activity android:name="rs.raf.projekat1.jovan_babic_rn3018.activities.EditIncomeExpenseActivity" />
+        <activity android:name="rs.raf.projekat1.jovan_babic_rn3018.activities.EditProfileActivity" />
+        <activity android:name="rs.raf.projekat1.jovan_babic_rn3018.activities.LoginActivity" />
+        <activity
+            android:name="rs.raf.projekat1.jovan_babic_rn3018.activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="rs.raf.projekat1.jovan_babic_rn3018.activities.MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>
